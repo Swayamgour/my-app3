@@ -1,0 +1,142 @@
+.LoginMainComponents {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    gap: 15px;
+}
+
+.LogInEnternumber {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    /* font-family: var(--font3); */
+}
+
+.LoginPhoneNumber {
+    /* color: gray; */
+    font-size: 15px;
+    font-family: 'Comfortaa';
+}
+
+.InputLogin {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    /* border: 1px solid gray; */
+    height: 6vh;
+    /* width: 100%; */
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+    padding: 0px 5px;
+    background-color: rgb(220, 253, 255);
+
+}
+
+.InputLogin input {
+    height: 90%;
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: rgb(220, 253, 255);
+
+}
+
+.LoginButton button {
+    padding: 10px 60px;
+    font-size: 16px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    background-color: rgb(127, 127, 233);
+}
+
+.LoginButton p {
+    text-align: center;
+    font-size: 0.8rem;
+    margin-top: 5px;
+    color: gray;
+}
+
+.Login_last {
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10px;
+    font-size: 0.8rem;
+    color: rgb(56, 52, 52);
+}
+
+.input_message_show {
+    color: red;
+    font-size: 13px;
+    /* margin-top: -5px; */
+    /* margin-left: 20px; */
+}
+
+.SigninBut {
+    font-size: 20px;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: none;
+    background-color: rgb(0, 177, 205);
+    margin-top: 10px;
+
+}
+
+.Dialogbox {
+    width: 500px;
+}
+
+@media screen and (max-width:700px) {
+    .Dialogbox {
+        width: 80vw
+    }
+}
+
+.termandcondision {
+    font-size: 11px;
+    color: black;
+
+}
+
+.LoginSpan {
+    color: teal;
+
+}
+
+.Second {
+    display: flex;
+    font-size: 12px;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.Second p {
+
+    font-size: 11px;
+}
+
+.Second span {
+
+    font-size: 11px;
+}
+
+.LoginSpanSecond {
+    border: 1px solid teal;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    /* padding: 1.5px 3px; */
+}
+
+/* rgb(220,253,255)
+rgb(0,177,205) */

@@ -1,0 +1,105 @@
+.carousel-sider-banner {
+    -webkit-display: flex;
+    -webkit-justify-content: center;
+    -webkit-width: 100%;
+    -webkit-margin: 1vmax auto;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 1vmax auto;
+}
+
+.carousel_set_banner {
+    -webkit-margin: auto;
+    -webkit-display: flex;
+    -webkit-width: 100%;
+    -webkit-overflow: hidden;
+    margin: 3% auto;
+    display: flex;
+    width: 90%;
+    overflow: hidden;
+}
+
+.carouselImage_banner {
+    -webkit-width: 100%;
+    -webkit-background-size: cover;
+    /* -webkit-min-height: 511px; */
+    -webkit-box-sizing: border-box;
+    -webkit-justify-content: center;
+    width: 100%;
+    background-size: cover;
+    /* min-height: 511px; */
+    box-sizing: border-box;
+    justify-content: center;
+
+}
+
+.imim_banner {
+    -webkit-width: 100%;
+    /* -webkit-height: fit-content; */
+    width: 100%;
+    /* height: fit-content; */
+}
+
+
+.carouselImage_banner-mode{
+    -webkit-width: 100%;
+    -webkit-background-size: cover;
+    /* -webkit-min-height: 400px; */
+    -webkit-box-sizing: border-box;
+    -webkit-justify-content: center;
+    width: 100%;
+    background-size: cover;
+    /* min-height: 400px; */
+    box-sizing: border-box;
+    justify-content: center;
+
+}
+
+@media screen and(max-width:768px){
+    .slider {
+        margin-top: 25%;
+        -webkit-margin-top: 25%;
+    }
+
+    .carousel-sider-banner {
+        -webkit-display: flex;
+        -webkit-justify-content: center;
+        -webkit-width: 100%;
+        -webkit-margin: 1vmax auto;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin: 1vmax auto;
+    }
+
+    .carousel-sider-banner>img {
+        -webkit-cursor: pointer;
+        -webkit-width: 70px;
+        -webkit-padding: 0.1vmax;
+        -webkit-margin: 0 1vmax;
+        -webkit-box-shadow: 0 0 5px var(--searchDark);
+        cursor: pointer;
+        width: 70px;
+        padding: 0.1vmax;
+        margin: 0 1vmax;
+        box-shadow: 0 0 5px var(--searchDark);
+    }
+
+    .carousel_set_banner {
+        -webkit-margin: auto;
+        -webkit-display: flex;
+        -webkit-width: 100%;
+        -webkit-overflow: hidden;
+        -webkit-position: sticky;
+        -webkit-top: 19%;
+        margin: auto;
+        display: flex;
+        width: 100%;
+        overflow: hidden;
+        position: sticky;
+        top: 19%;
+    }
+   
+
+}

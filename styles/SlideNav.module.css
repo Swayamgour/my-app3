@@ -1,0 +1,45 @@
+.login_Main_Caintaner {
+    padding: 10px;
+    font-family: 'Comfortaa';
+    color: white;
+    background: linear-gradient(to right, rgb(131, 227, 227), teal)
+}
+
+.login_Catintaner {
+    width: 100%;
+    display: grid;
+
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav_more_option {
+    padding: 10px;
+}
+
+.all_option {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+    color: gray;
+}
+.all_option p{
+    font-family: 'Comfortaa';
+}
+
+.nav_main_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav_become_Box{
+    display: flex;
+    gap: 10px;
+    /* border: 1px solid black; */
+    padding: 13px 18px;
+    border-radius: 7px;
+    box-shadow: 0px 0px 3px 1px rgb(164, 160, 160);
+}

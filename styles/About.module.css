@@ -1,0 +1,366 @@
+.AboutContaner {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 5%;
+    align-items: center;
+    /* margin-top: -40px; */
+}
+
+.AboutContaner div {
+    width: 45%;
+}
+
+.AboutContaner div h1 {
+    font-family: 'Comfortaa';
+
+}
+
+.AboutContaner div p {
+    font-family: 'Comfortaa';
+    margin-top: 4%;
+    color: gray;
+
+}
+
+
+
+.AboutContaner1 {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 5%;
+    align-items: center;
+    /* margin-top: -40px; */
+}
+
+.AboutContaner1 div {
+    width: 45%;
+}
+
+.AboutContaner1 div h1 {
+    font-family: 'Comfortaa';
+
+}
+
+.AboutContaner1 div p {
+    font-family: 'Comfortaa';
+    margin-top: 4%;
+    color: gray;
+
+}
+
+
+
+.About_Card_ {
+    background-color: #8fdaee;
+}
+
+.About_Card_One {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px 20px;
+    row-gap: 15px;
+}
+
+.About_Card_One div {
+    /* border: 1px solid black; */
+    padding: 35px 0px;
+    width: 28%;
+    text-align: center;
+    border-radius: 20px;
+    background-color: #fff;
+    font-family: 'Comfortaa';
+    box-shadow: 4px 5px 1px rgb(2, 69, 114);
+    /* Box shadow effect */
+}
+
+.About_FeedBack {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0% 0;
+}
+
+.About_FeedBack h1 {
+    color: rgb(73, 63, 63);
+    font-family: 'Comfortaa';
+    font-weight: 900;
+}
+
+.About_FeedBack_Card {
+    position: relative;
+    display: flex;
+
+}
+
+.AboutCardProfile {
+    position: absolute;
+    display: flex;
+    /* border: 1px solid black; */
+    width: 100%;
+    top: 0;
+    justify-content: space-around;
+    padding: 3.5% 0%;
+}
+
+.AboutCardProfile div {
+    width: 30vw;
+
+}
+
+.WebButton {
+    display: none;
+}
+
+.About_FeedBack_CardTwo {
+    display: none;
+}
+
+.features_box_des2 {
+    margin: 10px 0;
+    font: bold 1.2vw var(--title-font);
+    line-height: 2vw !important;
+    color: var(--simpleDark);
+}
+
+.features_box_des12 {
+    margin: 10px 0;
+    font: bold 1.2vw var(--title-font);
+    line-height: 2vw !important;
+    color: var(--simpleDark);
+    overflow: hidden;
+    height: 6vw;
+}
+
+.features_btn {
+    font-family: 'Comfortaa';
+    margin-top: 0%;
+    color: white;
+    padding: 6px 15px;
+    font-size: 16px;
+    background-color: black;
+    border: none;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.features_btn_icon {
+    font-size: 20px;
+}
+
+.About_WhatIsCantaner {
+    display: flex;
+    flex-direction: column;
+    /* text-align: fl; */
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.About_WhatisPhoneo {
+    width: 90%;
+    /* border: 1px solid black; */
+    padding-top: 40px;
+    font-family: 'Comfortaa';
+    /* padding: 20px 0px 0px 0px; */
+}
+
+.About_WhatisPhoneoAnswer {
+    margin-top: 20px;
+    width: 85%;
+    font-family: 'Comfortaa';
+    line-height: 25px;
+    /* font-size: 20px; */
+}
+
+.About_WhatisPhoneoAnswerSecond {
+    width: 85%;
+    /* margin-top: 10px; */
+    font-family: 'Comfortaa';
+    line-height: 25px;
+    /* font-size: 20px; */
+}
+
+.about_imageSection {
+    /* padding: 0px 20px; */
+    display: none;
+}
+
+.about_imageSectioforwindow {
+    padding: 0px 40px;
+}
+
+.hrTag {
+    display: none;
+}
+
+
+@media screen and (max-width:768px) {
+    .about_imageSection {
+        display: flex;
+        padding: 10px 10px;
+
+    }
+
+    .about_imageSectioforwindow {
+        padding: 0px 20px;
+        display: none;
+    }
+
+    .hrTag {
+        display: block;
+        margin: 15px 10px 0px 10px;
+        border: 1px solid #e4ebe8;
+    }
+
+    .AboutContaner {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    .AboutContaner div h1,
+    .AboutContaner1 div h1 {
+        margin-top: 5%;
+        font-size: 20px;
+    }
+
+
+    .AboutContaner div p {
+        text-align: start;
+    }
+
+    .AboutContaner div {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 15px;
+
+    }
+
+    .AboutContaner div:first-child,
+    .OurMisionCon {
+
+        background-image: url('/Group 2718.png');
+        height: auto;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .AboutContaner1 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .AboutContaner1 div {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 15px;
+
+    }
+
+    .WebButton {
+        display: unset;
+        /* font-family: 'Comfortaa';
+        margin-top: 0%;
+        color: white;
+        padding: 12px 30px;
+        font-size: 20px;
+        background-color: rgb(3, 0, 208);
+        border: none;
+        border-radius: 25px;
+        margin-bottom: 8%; */
+    }
+
+    /* .AboutContaner div button {
+        display: none;
+    } */
+
+    .Btn {
+        display: none;
+    }
+
+    .About_Card_One div {
+        width: 100%;
+    }
+
+    .About_FeedBack h1 {
+        /* margin: 5% 0; */
+        font-size: 20px;
+        padding: 20px 0 10px 0;
+    }
+
+    .About_FeedBack_Card {
+        display: none;
+    }
+
+    .About_FeedBack_CardTwo {
+        display: unset;
+        position: relative;
+        display: flex;
+    }
+
+    .AboutCardProfileTwo {
+        position: absolute;
+        display: grid;
+        /* border: 1px solid beige; */
+        bottom: 0;
+        width: 100%;
+        justify-content: center;
+        bottom: 100px;
+
+    }
+
+    .AboutCardProfileTwo div {
+        width: 60vw;
+
+
+    }
+
+    .features_box_des2 {
+        margin: 10px 0;
+        font: bold 13px var(--title-font);
+        line-height: 20px !important;
+        color: var(--simpleDark);
+    }
+
+    .features_box_des12 {
+        margin: 2px 0;
+        font: bold 13px var(--title-font);
+        line-height: 20px !important;
+        color: var(--simpleDark);
+        overflow: hidden;
+        height: 81px;
+    }
+
+    .features_btn {
+        display: flex;
+        cursor: pointer;
+        align-items: center;
+        justify-content: center;
+        text-transform: capitalize;
+        font: 600 14px var(--detail-font);
+        border: none;
+        color: var(--simpleNavyBlue);
+        font-family: 'Comfortaa';
+        margin-top: 0%;
+        color: white;
+        padding: 4px 7px;
+        background-color: black;
+        border: none;
+        border-radius: 25px;
+        /* width: 200px; */
+    }
+
+
+
+}

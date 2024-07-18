@@ -1,0 +1,286 @@
+.navbar {
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    top: -25%;
+    z-index: 999;
+    
+}
+@media screen and (max-width:1024px) {
+    .navbar {
+        top: -150px;
+    }
+}
+.topNav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    color: var(--shadowGrey-3);
+    background-color: var(--simpleWhite);
+}
+
+.mail_link{
+    cursor: pointer;
+    text-decoration: none;
+    font: 600 16px var(--title-font);
+    color:var(--shadowGrey-3)
+}
+
+.socialLink {
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.socialLink_icon {
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.middleNav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--primaryColor);
+    padding: 15px 20px;
+}
+
+.logo {
+    width: 10%;
+    cursor: pointer;
+}
+
+
+.search {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid var(--simpleWhite);
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+
+.search>input {
+    border: none;
+    width: 100%;
+    outline: none;
+    background-color: transparent;
+    font: 400 16px var(--title-font);
+    color: var(--simpleWhite);
+}
+
+.search>input::placeholder {
+    color: var(--simpleWhite);
+
+}
+
+.search>svg {
+    cursor: pointer;
+    color: var(--simpleWhite);
+    font-size: 30px;
+    transition: all .5s;
+    padding: 5px;
+}
+
+.wishlist{
+    width: 50px;
+    display: flex;
+    justify-content: center;
+}
+.wishlist>svg{
+    font-size: 30px;
+    cursor: pointer;
+    color: var(--simpleWhite);
+}
+
+.nav_mode,.sign_get,.search_filter{
+    display: none;
+}
+
+@media screen and (max-width:375px) {
+    
+}
+@media screen and (max-width:425px) {
+    
+}
+@media screen and (max-width:768px) {
+    .mail_link{
+        font: 400 13px var(--title-font);
+    }
+    .socialLink{
+        width: 100px;
+        justify-content: space-between;
+    }
+    .socialLink_icon {
+        font-size: 20px;
+    }
+    .nav_bottom{
+        display: none;
+    }
+    .nav_mode{
+        display: flex;
+        position: sticky;
+        top: 0;
+        z-index: 999;
+        padding:10px 15px;
+        align-items: center;
+        background-color: var(--massiveNavyBlue);
+        justify-content: space-between;
+        box-shadow: 0 2px 5px -2px var(--shadowGrey-1);
+    }
+    .nav_logo{
+        width: 90px;
+    }
+    .nav_menu_top_box{
+        width: 130px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .nav_menu_box{
+        width: 90px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .menu_icon{
+        font-size: 25px;
+        margin: auto;
+        cursor: pointer;
+        color: var(--simpleWhite);
+    }
+    .navbar_offset{
+        position: sticky;
+        top: -8.8%;  
+    }
+    .menu_list{
+        padding: 25% 0;
+    }
+    .menu_tab{
+        display: flex;
+        margin: 5% 0;
+        align-items: center;
+        color: var(--shadowGrey-3);
+        font: 500 15px var(--title-font);
+    }
+    .menu_tab_icon{
+        font-size:22px ;
+        margin: 0 10px;
+        color: var(--shadowGrey-3);
+    }
+
+    .sign_get{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 110%;
+        right: 5px;
+        padding: 10px 0;
+        width: 55%;
+        margin-left: auto;
+        background-color: var(--simpleWhite);
+        box-shadow: 0 0 5px 0 var(--shadowGrey-3);
+        border-radius: 3px;
+        z-index: 999;
+    }
+    .sign_get_disable{
+        display: none;
+    }
+    .sign_get::after{
+        content: '';
+        position: absolute;
+        top: -30px;
+        right: 25px;
+        width: 0px;
+        height:0px;
+        background-color: transparent;
+        border-bottom: 20px solid var(--simpleWhite);
+        border-top: 15px solid transparent;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+    }
+    .sign,.sign_box{
+        padding: 0 10px;
+    }
+    .sign{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 10px;
+    }
+    .sign_link_btn{
+        border: none;
+        cursor: pointer;
+        background-color: var(--massiveNavyBlue);
+        color: var(--simpleWhite);
+        font: 400 15px var(--detail-font);
+        padding: 5px 0;
+        border-radius: 5px;
+    }
+    .sign_link{
+        cursor: pointer;
+        padding: 7px 0;
+        font: 400 15px var(--detail-font);
+        color: var(--simpleDark);
+        margin-left: 10px;
+    }
+    .sign_btn{
+        cursor: pointer;
+        width: fit-content;
+        border: none;
+        background-color: transparent;
+        font: 600 15px var(--detail-font);
+        color: var(--massiveNavyBlue);
+        margin-left: 10px;
+    }
+
+    .search_filter{
+        position: sticky;
+        background-color: var(--simpleWhite);
+        /* top: 0; */
+        z-index: 998;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 10px 5px;
+        box-shadow: 0 1px 5px var(--shadowGrey-1);
+    }
+    .filter_btn{
+        width: 20%;
+        display: flex;
+        align-items: center;
+        font: 400 12px var(--title-font);
+    }
+    .filter_icon{
+        font-size: 25px;
+        color: var(--shadowGrey-3);
+    }
+    .search_box{
+        width: 70%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        border: 0.5px solid var(--shadowGrey-1);
+        border-radius: 5px;
+        padding: 0 10px;
+    }
+    .search_icon{
+        font-size: 22px;
+        color: var(--shadowGrey-3);
+    }
+    .search{
+        width:90%;
+        padding: 15px 0;
+        border: none;
+        outline: none;
+        font: 400 11.5px var(--title-font);
+    }
+
+}
+@media screen and (max-width:1024px) {
+    .navbar{
+        width: 100%;
+    }
+}

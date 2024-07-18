@@ -1,0 +1,27 @@
+.heading{
+    font: 500 12px var(--title-font);
+    width: 45%;
+}
+
+.headingg{
+    font: 900 15px var(--title-font); 
+  
+}
+
+.Camtainer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding-bottom: 8px;
+    border-bottom: 1px dotted rgb(223, 219, 219);
+}
+
+.ModDetail{
+    padding: 10px 20%;
+}
+
+@media screen and (max-width:480px) {
+    .ModDetail {
+        padding: 0px;
+    }
+}

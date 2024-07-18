@@ -1,0 +1,55 @@
+.MainCon {
+    padding: 10px 3%;
+}
+
+
+
+.PhoneImage {
+    width: 17%;
+
+}
+
+.container {
+    border: 1px solid rgb(178, 173, 173);
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.PhoneImage_Cantainer {
+    display: flex;
+    gap: 25%;
+    align-items: center;
+    padding: 10px;
+    border: 1px dotted rgb(178, 173, 173);
+    border-radius: 6px;
+}
+
+.PhoneImage_Cantainer p {
+    font: 500 15px var(--title-font);
+    color: gray;
+}
+.PhoneName_Caintaeiner{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+   
+}
+
+.PhoneName {
+    font: 500 13px var(--title-font);
+}
+
+.PhonRupeey {
+    font: 500 16px var(--title-font);
+}
+
+.PhoneCustmerName {
+    font: 500 9px var(--title-font);
+    color: green;
+}

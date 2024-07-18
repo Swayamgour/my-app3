@@ -1,0 +1,332 @@
+.compare_Cain {
+    padding: 10px 20%;
+}
+
+.CompareNav {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10px;
+    color: gray;
+    border-bottom: 1px solid rgb(226, 223, 223);
+
+}
+
+.CompareNav p {
+    font: 500 13px var(--title-font);
+}
+
+.Smartphones {
+    margin-top: 10px;
+    font: 500 10px var(--title-font);
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding-left: 5%;
+}
+
+.phone_name {
+    font: 500 15px var(--title-font);
+    margin-top: 25px;
+}
+
+.phone_name :first-child {
+    color: teal;
+    font: 700 17px var(--title-font);
+    margin-bottom: 6px;
+}
+
+.Compare_secondPhone {
+    display: flex;
+    padding: 10px 3%;
+    justify-content: space-between;
+    gap: 5px;
+    border-bottom: 1px solid gray;
+
+}
+
+.Compare_secondPhone1 {
+    display: flex;
+    padding: 10px 0%;
+    justify-content: space-between;
+    gap: 5px;
+
+}
+
+.PhoneCard {
+    width: 45%;
+}
+
+.PhoneCard1 {
+    width: 50%;
+}
+
+.phone_images {
+    position: relative;
+    width: 60%;
+    margin: 5px auto;
+}
+
+.line {
+    border: 1px solid rgb(221, 213, 213);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 0px;
+    /* height: 100%; */
+}
+
+.line p {
+    border: 1px solid gray;
+    border-radius: 50%;
+    background-color: #fff;
+    padding: 6px 5px;
+    text-align: center;
+    color: gray;
+
+}
+
+.ram_Cantainer {
+    position: absolute;
+    bottom: 0;
+    left: -25%;
+    background-color: #fff;
+    opacity: 0.9;
+}
+
+.ram_box {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    width: fit-content;
+    font: 500 10px var(--title-font);
+    border-radius: 5px;
+    width: 60%;
+
+
+}
+
+.Prosesser_box {
+    margin-top: 5px;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    width: fit-content;
+    font: 500 10px var(--title-font);
+    border-radius: 5px;
+    width: 60%;
+}
+
+.phone_price_can {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.phone_price {
+    border: 2px solid rgb(35, 178, 172);
+    padding: 4px 15px;
+    border-radius: 20px;
+}
+
+.name_Phone {
+    margin-top: 5px;
+    font: 500 15px var(--title-font);
+    /* margin-bottom: 10px; */
+}
+
+
+.highlight {
+    width: 100%;
+    margin: 0vw auto;
+    margin-top: 4vw;
+}
+
+.highlight_des_box {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    /* border-bottom: 0.2vw solid var(--shadowGrey-1); */
+    padding: 10px 0;
+    gap: 10px;
+}
+
+.highlight_des_img {
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    color: var(--simpleDark);
+}
+
+.highlight_des {
+    width: 85%;
+}
+
+.highlight_title {
+    font: 600 10px var(--title-font);
+    color: var(--shadowGrey-3);
+}
+
+.highlight_text {
+    margin-top: 1.5vw;
+    font: 600 10px var(--title-font);
+    color: black;
+}
+
+.highlight_more_details {
+    position: relative;
+    bottom: 0.2vw;
+    background-color: var(--simpleWhite);
+    font: 600 3vw var(--title-font);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2vw 0;
+    border-radius: 2vw;
+    box-shadow: 0 1vw 5vw -1vw var(--shadowGrey-2);
+}
+
+
+.Price_Compare {
+    padding: 7px 10px;
+    border-bottom: 1px solid rgb(220, 213, 213);
+
+}
+
+.Phone_Name {
+    margin-top: 10px;
+    padding-left: 10px;
+    color: gray;
+}
+
+.PhoneList_Container {
+    margin-top: 10px;
+}
+
+.phone_List_Con {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid black; */
+    padding: 0px 10px;
+
+
+}
+
+.phone_List_Con:nth-child(2n) {
+    background-color: rgb(243, 252, 251);
+}
+
+.Store_Name {
+    font: 600 3vw var(--title-font);
+    color: rgb(62, 61, 61);
+    padding: 10px;
+}
+
+
+.StorePrice_ {
+    font: 600 3vw var(--title-font);
+    color: rgb(62, 61, 61);
+    padding: 6px 15px;
+    border: 1px solid black;
+    border-radius: 14px;
+}
+
+.compare_User_Review {
+    background-color: rgb(239, 245, 245);
+    margin-top: 10px;
+    padding-bottom: 5px;
+}
+
+
+.compare_User_Review h3 {
+    padding: 10px 10px 0px 10px;
+    margin-bottom: 10px;
+    font: 900 16px var(--title-font);
+    position: relative;
+
+}
+
+
+.compare_User_Review h3::after {
+    content: "";
+    width: 11%;
+    /* Adjust as needed */
+    height: 1px;
+    /* Set the desired underline thickness */
+    background-color: #000;
+    /* Set the underline color */
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+
+    /* Centered horizontally */
+}
+
+.user_review_ {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid rgb(168, 164, 164);
+}
+
+.user_review_ p {
+    font: 900 16px var(--title-font);
+}
+
+.review_comparison {
+    padding: 10px 20px;
+    /* border: 1px solid black; */
+}
+
+.review_comparison_box {
+    /* border: 1px solid black; */
+    padding: 20px 15px;
+    border-radius: 20px;
+    box-shadow: 0px 2px 3px #7b7b7b;
+
+}
+
+.FilterBox {
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    height: 5vh;
+    border-radius: 5px;
+    width: 90%;
+    margin: 0px auto;
+
+}
+
+.FilterBox input {
+    width: 55%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+
+
+
+}
+
+.crossButton {
+    border: none;
+    background-color: #fff;
+    padding: 5px
+}
+
+.AddButton {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+@media screen and (max-width:480px) {
+    .compare_Cain {
+        padding: 10px;
+    }
+}

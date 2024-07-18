@@ -1,0 +1,114 @@
+.AuctionDetain_Container {
+    padding: 0 3%;
+}
+
+.search_Cantainer {
+    display: flex;
+    border: 1px solid gray;
+    justify-content: space-around;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+
+.search_Cantainer input {
+    border: none;
+    outline: none;
+    width: 80px;
+
+}
+
+.Search_Main_Caintainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.Search_Main_Caintainer h2 {
+    font: 500 16px roboto;
+}
+
+.phone_Caintaner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.Phone_Caintainer_Left,
+.Phone_Caintainer_Right {
+    width: 48%;
+}
+
+.Phone_Caintainer_Left {
+    padding: 10px 0;
+}
+
+.Phone_Caintainer_Left p {
+    font: 500 15px roboto;
+    color: gray;
+    margin-top: 20px;
+}
+
+
+.Phone_Caintainer_Left h2 {
+    font: 500 16px roboto;
+
+
+}
+
+.Phone_Caintainer_Left h1 {
+    font: 600 20px roboto;
+    margin-top: 10px;
+
+}
+
+.Review {
+    color: rgb(21, 56, 151);
+}
+
+.Phone_Caintainer_Right {
+    border: 1px solid gray;
+
+}
+
+
+.PhoneImage_Cantainer {
+    width: 70%;
+    padding: 20px 30px;
+}
+
+.MainCaintainer {
+    border: 1px solid gray;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+
+.Phone_Detail1 {
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Name_Phone  {
+    font: 200 16px roboto;
+}
+
+.Phone_Detail {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 5px;
+}
+
+
+.Offer{
+    font: 200 10px roboto;
+    color: blue;
+}
+.Price{
+    font: 200 16px roboto;
+}

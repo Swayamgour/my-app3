@@ -1,0 +1,64 @@
+@media screen and (max-width:768px) {
+    .seller_slider_box{
+        margin-top: 10px ;
+        margin-bottom: 30px;
+    }
+    .best_seller_card{
+        display: flex;
+        align-items: center;
+        width: 90%;
+        margin: 20px auto;
+        padding: 5px 0;
+        justify-content: space-around;
+        box-shadow: 0 4px 10px var(--shadowGrey-1);
+        border-radius: 5px;
+    }
+    .best_seller_img{
+        width: 25%;
+    }
+    .best_seller_card_des{
+        width: 65%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .best_seller_card_des_top{
+        padding-bottom: 40px;
+    }
+    .best_seller_card_des_subtitle{
+        font: 400 10px var(--title-font);
+        text-transform: capitalize;
+        color: var(--simpleDark);
+    }
+    .best_seller_card_des_phone_name{
+        font: 600 14px var(--regular-font);
+        color: var(--massiveNavyBlue);
+        text-transform: uppercase;
+    }
+    .best_seller_card_des_variant{
+        font: 400 12px var(--detail-font);
+    }
+    .best_seller_card_des_bottom{
+        display: flex; 
+        justify-content: space-between;
+    }
+    .best_seller_card_des_price{
+        font: 600 18px var(--title-font);
+    }
+    .best_seller_card_des_shopnow{
+        display: flex;
+        align-items: center;
+        text-transform: capitalize;
+        font: 600 12px var(--detail-font);
+    }
+    .shopnow_icon{
+        display: flex;
+        margin: 0 5px;
+        align-items: center;
+        justify-content: center;
+        width: fit-content;
+        font-size: 15px;
+        background-color: var(--simpleGreen);
+        border-radius: 100px;
+    }
+}

@@ -1,0 +1,148 @@
+.career_main {
+    background-color: #F7F7F7;
+    padding: 10px 7% 10px 5px;
+
+}
+
+
+.career_hading {
+    background-color: #FFFEFE;
+    margin-left: 9%;
+    padding: 10px 5%;
+    /* border: 1px solid black; */
+
+}
+
+.Carrer_Carre_Heading {
+    color: teal;
+    text-transform: uppercase;
+    font: 600 16px var(--title-font);
+}
+
+.pheraghaphheading {
+    color: gray;
+    font: 600 .6rem var(--title-font);
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pheraghaphheading_phragraph {
+    color: black;
+    font: 600 .6rem var(--title-font);
+    text-align: center;
+    /* margin-top: 20px; */
+}
+
+.career_hading_cantainer {
+    /* border: 1px solid black; */
+    /* width: 100%; */
+    padding: 10px 0px 20px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: black;
+    font: 600 .6rem var(--title-font);
+}
+
+.Carrer_Member_Heading {
+    text-align: center;
+    margin-top: 15px;
+    color: teal;
+    text-transform: uppercase;
+    font: 600 16px var(--title-font);
+}
+
+.career_Member_Cantainer {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.career_Member_Cantainer p {
+    text-align: center;
+    color: rgb(99, 98, 99);
+    font: 600 16px var(--title-font);
+
+}
+
+.career_Member_Cantainer h3 {
+    text-align: center;
+    margin-top: 10px;
+    color: rgb(1, 24, 70);
+    font: 900 20px var(--title-font);
+    margin-bottom: 20px;
+    /* font-weight: 900; */
+
+}
+
+.career_Member_image {
+    padding: 10px 35%;
+}
+
+.carrer_Area_of {
+    display: flex;
+    flex-direction: column;
+    margin-left: 9%;
+    margin-top: 20px;
+}
+
+.carrer_Area_of h3 {
+    color: rgb(99, 98, 99);
+    font: 200 16px var(--title-font);
+}
+
+.carrer_Area_of h2 {
+    margin-top: 3px;
+    color: black;
+    font-family: 'Comfortaa';
+    font-weight: bold;
+    /* font-size: ; */
+}
+
+.carrer_ImageArea_OF_impro {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.Explore_Button {
+    display: flex;
+    justify-content: center;
+
+}
+
+.Explore_Button button {
+    background-color: rgb(1, 60, 88);
+    font: 600 16px var(--title-font);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 16px;
+}
+
+.carrer_Area_Training_and_guidance {
+    text-align: center;
+}
+
+.carrer_Training_and_guidance {
+    display: flex;
+    justify-content: center;
+    background-color: #F7F7F7;
+
+}
+
+.carrer_Training_and_guidance p {
+    width: 90%;
+    color: rgb(99, 98, 99);
+    font: 200 14px var(--title-font);
+
+}
+
+.FindinLinkedin {
+    margin-top: 5px;
+    font: 600 14px var(--title-font);
+}

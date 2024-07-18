@@ -1,0 +1,29 @@
+/* Define the keyframes for the arrow animation */
+@keyframes upAndDown {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+/* Apply the animation to the button */
+.button_arrow {
+    display: inline-block;
+    animation: upAndDown 2s infinite;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 7px 10px;
+    font-size: 16px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}

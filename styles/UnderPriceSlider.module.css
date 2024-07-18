@@ -1,0 +1,52 @@
+@media screen and (max-width:768px) {
+    .under_price_slider_box{
+        /* margin-top: 10px ; */
+        margin-bottom: 30px;
+    }
+    .under_price_card{
+        display: flex;
+        align-items: center;
+        width: 90%;
+        margin: 0 auto;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        justify-content: space-around;
+        border-bottom: 1px solid var(--shadowGrey-2);
+    }
+   
+    .under_price_card:last-child{
+        border-bottom: none
+    }
+    .under_price_phone_img{
+        width: 25%;
+    }
+    .under_price_phone_des{
+        width: 65%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .under_price_phone_des_top{
+        padding-bottom: 40px;
+    }
+    .under_price_phone_des_subtitle{
+        font: 400 10px var(--title-font);
+        text-transform: capitalize;
+        color: var(--simpleDark);
+    }
+    .under_price_phone_des_phone_name{
+        font: 600 14px var(--regular-font);
+        color: var(--massiveNavyBlue);
+        text-transform: uppercase;
+    }
+    .under_price_phone_des_variant{
+        font: 400 12px var(--detail-font);
+    }
+    .under_price_phone_des_bottom{
+        display: flex; 
+        justify-content: space-between;
+    }
+    .under_price_phone_des_price{
+        font: 600 18px var(--title-font);
+    }
+}

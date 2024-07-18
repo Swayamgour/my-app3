@@ -1,0 +1,155 @@
+.carder{
+    margin: 0 auto;
+    cursor: pointer;
+    background-color: var(--simpleWhite);
+    position: relative;
+    max-width: 225px;
+    height: fit-content;
+    padding: 20px;
+    overflow: hidden;
+    border: 1.5px solid transparent;
+}
+
+.card_img_box{
+    width: 100%;
+    margin: auto;
+}
+
+.card_summary{
+  width: 100%;
+  margin: auto;
+}
+.card_qoute{
+    margin: 10px 0;
+    color: var(--shadowGrey-2);
+    font:500 14px var(--title-font)
+}
+.card_brand_company{
+    display: flex;
+    flex-direction: column;
+    font:500 18px var(--simple-font);
+    color: var(--massiveNavyBlue);
+
+}
+.card_brand_model{
+    display: flex;
+    flex-direction: column;
+    font:500 16px var(--simple-font);
+}
+.card_prifix{
+    font:500 13px var(--simple-font);
+    color: var(--simpleDark);
+}
+.price_section{
+    display: flex;
+    margin: 10px 0;
+    align-items: flex-end;
+}
+.card_price{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    font:600 20px var(--simple-font);
+    color: var(--massiveNavyBlue);
+}
+.rupeeIcon{
+    font-size: 22px;
+    font-weight: bolder;
+}
+.card_MRPprice{
+    display: flex;
+    align-items: center;
+    text-decoration: line-through;
+    text-decoration-thickness: 2px;
+    color: var(--shadowGrey-2);
+    font:500 15px var(--simple-font);
+}
+
+@media screen and (max-width:768px) {
+    .carder{
+        display: flex;
+        justify-content: space-between;
+        max-width: 100%;
+        padding: 10px;
+        border-bottom: 0.5px solid var(--shadowGrey-1);
+    }
+    .carder:last-child{
+        border-bottom: none;
+    }
+    .card_img_box{
+        width: 25%;
+    }
+    .card_summary{
+        width: 65%;
+        position: relative;
+    }
+    .wishlist_like{
+        position: absolute;
+        top: 5px;
+        right: 0px;
+    }
+    .wish_like{
+        font-size: 25px;
+        color: var(--shadowGrey-2);
+    }
+    .card_brand_company{
+        margin: 5px 0;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+    }
+    .card_prifix{
+        margin: 5px 0;
+        font: 400 12px var(--title-font);
+    }
+    .bbcw{
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .bbcw_available{
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .bbcw_available_icon_box{
+        background-color: var(--massiveNavyBlue);
+        border-radius: 100px;
+        display: flex;
+        align-items: center;
+    }
+    .bbcw_available_icon{
+        padding: 5px;
+        font-size:13px;
+        color: var(--simpleWhite);
+    }
+    .bbcw_available_title{
+        font: 400 10px var(--title-font);
+        line-height: 22px;
+    }
+    .price_section{
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 0;
+    }
+    .card_fixed_price_box{
+        display: flex;
+        margin: 5px 0;
+        align-items: center;
+    }
+    .discount_off{
+        font: 500 16px var(--title-font);
+        margin-right: 10px;
+        color: var(--simpleGreen);
+    }
+    .card_MRPprice{
+        font: 400 14px var(--detail-font);
+    }
+    .card_price{
+        width: 100%;
+        font: 600 18px var(--title-font);
+        text-transform: uppercase;
+    }
+}

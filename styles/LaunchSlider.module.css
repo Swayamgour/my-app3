@@ -1,0 +1,48 @@
+@media screen and (max-width:768px) {
+    .launch_box{
+        width: 95%;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        position: relative;
+    }
+    .launch_card{
+        position: relative;
+    }
+    /* .launch_card_bg_img{
+        z-index: 0;
+    } */
+    .launch_card_phone_img{
+        position: absolute;
+        top: 25px;
+        left: 0%;
+        right: 0%;
+        width: 40%;
+        margin: auto;
+    }
+    .launch_card_phone_des{
+        padding: 10px 0;
+        font: 600 16px var(--detail-font);
+    }
+    .launch_card_see_more{
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .see_all{
+        width: 25%;
+        text-align: center;
+        text-transform: capitalize;
+        font: 500 16px var(--detail-font);
+        color: var(--simpleDark);
+    }
+    .see_brand{
+        width: 35%;
+        text-align: center;
+        padding: 5px 0;
+        border-radius: 100px 0 0 0;
+        font: 500 16px var(--detail-font);
+        color: var(--simpleWhite);
+        background-color: var(--simplePink);
+    }
+}

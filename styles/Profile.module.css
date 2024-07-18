@@ -1,0 +1,69 @@
+.Profile_ImageContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 5%;
+}
+
+.Profile_Image_Logo {
+    border-radius: 50%;
+    position: relative;
+}
+
+.Profilr_Cammer_Icons {
+    position: absolute;
+    bottom: 0;
+    right: 0px;
+    /* border-right-color: blue; */
+}
+
+.logo {
+    background-color: blue;
+    color: white;
+    padding: 5px 6px;
+    border-radius: 50%;
+    font-size: 12px;
+}
+
+.Profile_Edit_Section {
+    padding: 2% 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.Profile_Input_section p {
+    color: gray;
+    font-size: 13px;
+}
+
+.Profile_Input_section input {
+    width: 90%;
+    border: none;
+    outline: none;
+    /* color: black; */
+    padding: 6px 15px;
+    border-bottom: 1px solid gray;
+}
+.Submit_button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.Submit_button button {
+    /* width: 100%; */
+    padding: 10px 14px;
+    margin-top: 3%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+}
+.Submit_button button:hover {
+    background-color: #000080;
+}

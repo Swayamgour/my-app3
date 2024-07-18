@@ -1,0 +1,94 @@
+.suggest {
+    background-image: url('/Home/Group 3156.jpg');
+    background-position: fixed;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+    padding: 20px 2%;
+    margin-top: 20px;
+}
+
+
+.LogoImage_forBest {
+    width: 30%;
+}
+
+.imageLogo {
+    border-radius: 50%;
+    box-shadow: 0px 2px 4px rgb(171, 168, 168);
+}
+
+.ShopNameForBestSeller {
+    margin-top: 5px;
+    font: 600 14px var(--Montserrat-font);
+}
+
+.visitShopCantainer {
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mapLogo {
+    width: 30px;
+}
+
+.visitShopCantainer button {
+    padding: 7px 7px 4px 7px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.AddressForBestSeller {
+    margin-top: 5px;
+    font: 400 10px var(--title-font);
+
+}
+
+.suggest_phones_box {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+
+
+
+.LogoImage_forBest {
+    width: 30%;
+}
+
+
+
+.cardForBestSeller {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+
+}
+
+.cardSingle {
+    display: grid;
+    grid-template-rows: subgrid;
+    grid-row: span 4;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+
+
+@media screen and (max-width:480px) {
+    .cardForBestSeller {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+        gap: 10px;
+        justify-content: center;
+
+    }
+}

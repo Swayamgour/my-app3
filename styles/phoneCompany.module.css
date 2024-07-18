@@ -1,0 +1,35 @@
+.Phone_Main_Compare {
+    display: flex;
+}
+
+.Phone_Main_Compar_Can {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow-y: hidden;
+    width: 100%;
+}
+
+.BrandName {
+    display: flex;
+}
+
+.BrandName p {
+    align-items: center;
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    font-size: 18px;
+    justify-content: space-around;
+    letter-spacing: .5px;
+    margin: 10px 5px;
+    min-width: 110px;
+    overflow: hidden;
+    text-transform: capitalize;
+}
+
+.BrandName p span {
+    padding: 10px 0;
+}

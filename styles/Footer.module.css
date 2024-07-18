@@ -1,0 +1,94 @@
+.Footer_Main {
+    padding: 20px 4%;
+}
+
+.DontCompromise {
+    font: 700 16px var(--title-font);
+    margin-top: 30px;
+    margin-left: 10px;
+
+}
+
+.SocialMedia {
+
+    font: 700 16px var(--title-font);
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.socialMedia {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+
+.About {
+    font: 900 18px var(--title-font);
+    margin-top: 30px;
+    margin-left: 10px;
+
+}
+
+.About_Catergory_Cantainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.About_Catergory_Cantainer_Social p {
+    width: 46%;
+    font: 600 14px var(--title-font);
+    margin-top: 8px;
+    margin-left: 10px;
+}
+
+.About_Catergory_Cantainer p {
+    width: 46%;
+    font: 500 14px var(--title-font);
+    margin-top: 8px;
+    margin-left: 10px;
+}
+
+.hrtag {
+    width: 95%;
+    border: 1px solid gray;
+    margin: 25px auto;
+    /* margin-top: 30px; */
+}
+
+.OfferBox {
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    /* justify-content: space-between; */
+}
+
+.OfferBox p {
+    border: 1px solid gray;
+    padding: 4px 10px;
+    border-radius: 10px;
+    font: 400 12px var(--title-font);
+}
+
+.PhoneoTag {
+    font: 500 14px var(--title-font);
+    text-align: center;
+    margin-top: 30px;
+}
+
+.HelpCenter{
+    display: flex;
+}
+
+.HelpCenter p{
+    font: 600 14px var(--title-font);
+    margin-top: 0px;
+    margin-left: 10px;
+    width: 46%;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+}

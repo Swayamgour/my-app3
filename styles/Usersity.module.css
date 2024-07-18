@@ -1,0 +1,93 @@
+.filterBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    padding: 10px 5%;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+}
+
+.commoc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+
+}
+
+.commoc :first-child {
+    font: 500 12px var(--title-font);
+    color: teal;
+
+}
+
+.commoc p:first-of-type {
+    font: 500 12px var(--title-font);
+    color: teal;
+}
+
+.commoc p:nth-of-type(2) {
+    font: 500 12px var(--title-font);
+}
+
+.inputbox {
+    width: 80%;
+    height: 5vh;
+
+
+}
+
+.inputbox input {
+    border: none;
+    outline: none;
+    height: 100%;
+    background-color: #e5e1e1;
+    border-radius: 5px;
+    width: 95%;
+    padding-left: 10px;
+    font: 500 15px var(--title-font);
+    /* padding: 0px 10px; */
+
+}
+
+.fontFilter {
+    font-size: 20px;
+}
+
+.filterformoreitemx p {
+    font: 500 15px var(--title-font);
+    padding: 5px 10px;
+}
+
+.filterformoreitemx hr {
+    margin: 10px 0;
+}
+
+.UserSity_MainDiv {
+    border-bottom: 1px solid #b3b1b1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3%;
+    border-radius: 25px;
+}
+
+.ShopName_UserSity {
+    font: 500 15px var(--Montserrat-font);
+}
+
+.ShopName_UserSity_Name {
+    font: 100 14px var(--Montserrat-font);
+    color: rgb(50, 47, 47);
+
+}
+
+.imageForUserSity {
+    width: 30%;
+    display: flex;
+}
